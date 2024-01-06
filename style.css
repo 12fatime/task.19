@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1400px;
+    margin:  auto;
+    padding: 0px 50px;
+}
+nav{
+    padding: 20px 0px;
+    background-color:white;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar.logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 6px 12px;
+    color: black;
+}
+.navbar button{
+    width: 140px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid orangered;
+}
+.navbar button:hover{
+    background-color: black;
+    color: orangered;
+    border: 1px solid black;
+}
+.two{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://credesign.vercel.app/multiPage/img/particleOne.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.shekil img{
+    width: 400px;
+    height: 500px;
+}
+.two h1{
+    font-size: 50px;
+}
+.two p{
+    color: gray;
+    margin-top: 20px;
+}
+.two button{
+    width: 140px;
+    height: 50px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 145, 0);
+    margin-top: 20px;
+}
+.two button:hover{
+    background-color: black;
+    color: orangered;
+    border: 1px solid black;
+   
+}
+.third{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.third h1{
+    margin-top: 20px;
+}
+.third p{
+    margin-top: 20px;
+    color: gray;
+}
+
+.setir{
+    display: flex;
+    gap: 20px;
+}
+.setir h4{
+    font-weight: lighter;
+}
+.third button{
+    width: 140px;
+    height: 50px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 145, 0);
+    margin-top: 20px;
+}
+.third button:hover{
+    background-color: black;
+    color: orangered;
+    border: 1px solid black;
+   
+}
+.four{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.five{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 20px;
+    justify-content: space-around;
+}
+.five .cards {
+    width: 280px;
+    height: 250px;
+    border: 1px solid orangered;
+   
+}
+.five h2{
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 20px;
+}
+.five p{
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+}
+.six{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.seven{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.seven .cards{
+    width: 300px;
+    height: 250px;
+}
+.seven p{
+    color: gray;
+}
+.eight{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.eight h1{
+    color: black;
+}
+.nine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+}
+.nine ul{
+    float: right;
+    margin-right: 20px;
+}
+.nine ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 10px;
+}
+.nine ul li a{
+    text-decoration: none;
+    padding: 6px 12px;
+    color: rgb(54, 53, 53);
+    gap: 40px;
+}
+.ten{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 10px;
+    justify-content: space-around;
+}
+.ten img{
+    width: 380px;
+    height: 400px;
+    
+}
+.eleven{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+img.bir{
+    width: 300px;
+    height: 280px;
+}
+img.iki{
+    width: 600px;
+    height: 280px;
+}
+.oniki{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.oniki h1{
+    color: black;
+}
+.onuch{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.ondord{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ondord h1{
+    color: black;
+}
+.onbesh{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 30px;
+}
+.onbesh img{
+    width: 350px;
+    height: 380px;
+}
+.onbesh h6{
+    color: gray;
+    font-weight: lighter;
+}
+.onbesh p{
+    color: orangered;
+    
+}
+.onbesh h2{
+    color: black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.onbesh h2:hover{
+    color: orangered;
+}
+.onbesh .card{
+    border: 1px solid orangered;
+}
+.onalti{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.onalti h1{
+    color: black;
+}
+.onyeddi{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.table{
+    width: 500px;
+    height: 480px;
+}
+.list{
+    width:500px;
+    height: 480px;
+}
+.onyeddi .setir{
+    width: 400px;
+    height: 90px;
+}
+.onyeddi button{
+    width: 140px;
+    height: 50px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 145, 0);
+    margin-top: 20px;
+}
+.onyeddi button:hover{
+    background-color: black;
+    color: orangered;
+    border: 1px solid black;
+   
+}
+.onsekkiz{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(29, 28, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.onsekkiz p{
+    color: white;
+    margin-top: 15px;
+}
+.onsekkiz h3{
+    color: white;
+    margin-top: 10px;
+}
+
